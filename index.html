@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Lottery Winner Picker</title>
+  </head>
+  <body>
+    <button class="buttons" onclick="connectMetamask()">Connect To METAMASK</button>
+    <p id="accountArea"></p>
+    <button class="buttons" onclick="connectContract()">Connect To contract</button>
+    <p id="contractArea"></p>
+    <h1>Enter the lottery to win Ethereum</h1>
+    <p>Enter your address and click the button below to enter the lottery</p>
+    <p>Current prize pool: <span id="prizePool">0</span></p>
+    <button id="enter-button" onclick="enter()">Enter lottery with 1ETH</button>
+    <div id="owner">
+    <h1>Lottery Winner Picker</h1>
+	<p> If you are the owner click the button below to pick a random lottery winner from the list of entrants.</p>
+	<button id="pick-winner-button" onclick="pickWinner()">Pick Winner</button>
+	<p class="winner" id="winner">Winner goes here</p>
+    </div>
+  </body>
+</html>

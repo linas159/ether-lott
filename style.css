@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.winner {
+    font-size: 32px;
+    font-weight: bold;
+    color: green;
+}
+
+.input-field {
+    position: absolute;
+    left: 50px;
+}
+
+.input-field label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+.input-field.required-field label::after{
+    content: " *";
+    color: red;
+}
+
+.input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+    width: 350px;;
+}
+
+#pick-winner-button, #enter-button, .buttons{
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.small-button{
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    max-width: 60px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
