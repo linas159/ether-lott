@@ -22,6 +22,7 @@ Sukurtas puslapis, skirtas žaisti loteriją su savo turima ethereum valiuta pan
 - Solidity
 - Ganache
 - Remix IDE
+- MetaMask
 
 ## Loterijos aprašymas
 - Išmanioje sutartyje gali dalyvauti daug dalyvių, tačiau visados turi būti bent du dalyviai, t.y. sutarties sukūrėjęs (dislokuotojas) - owner bei paprastas dalyvis (lošejas).
