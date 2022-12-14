@@ -29,9 +29,7 @@ Sukurtas puslapis, skirtas žaisti loteriją su savo turima ethereum valiuta pan
 - Dalyviai turi galimybę pežiūrėti esamą prizą ir savaime aišku patys prisijungti prie loterijos susimokėjus 1 ETH
 - Tik savininkas atėjus laikui gali išrinkti laimėtoją ir pervesti piniginį prizą į žaidėjo virtualę piniginę.
 
-## Įvykdytos transakcijos (Ganache)
+##  Išmaniosios sutarties vykdymo "logai" (Ganache)
 ![image](https://user-images.githubusercontent.com/93277316/207669208-24bceb45-8c56-4476-b3ab-45e28d0be046.png)
 
 
-## Ganache išmaniosios sutarties vykdymo "logai"
-![image](https://user-images.githubusercontent.com/93277316/207669771-2d0ff14f-4628-40ed-a87d-bb98aa229905.png)
